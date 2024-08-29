@@ -161,3 +161,34 @@ body {
 .popup-content button:hover {
     background-color: #ffa07a;
 }
+/* Boutons Modifier et Supprimer */
+.edit-button,
+.delete-button {
+    background-color: #ff6f61;
+    color: #121212;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #ffa07a;
+}
+
+
+.admin-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-table td form {
+    display: inline;
+    margin-left: 5px;
+}
